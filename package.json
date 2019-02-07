@@ -1,0 +1,24 @@
+{
+  "name": "simpleadmin-nodejs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=9.10.1"
+  },
+  "postinstall": "npm run build",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "hapi": "^18.0.0",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "simpleadmin": "^1.4.6"
+  }
+}
